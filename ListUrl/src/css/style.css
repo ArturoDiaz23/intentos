@@ -1,14 +1,43 @@
-body {
-    background-color: rgb(182, 182, 182);
+:root {
+    --success: #198754;
+    --warning: #ffc107;
+    --danger: #dc3545;
 }
 
-.margin_body {
-    margin: 100px 100px;
+body {
+    font-family: sans-serif;
+    background-color: rgba(212, 212, 212, 0.5);
+    margin: 30px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
+    display: grid;
+    gap: 20px;
+}
+
+md-fab {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+
+#dialog_url {
+    width: 80%;
+}
+
+div [slot="actions"] {
+    justify-content: space-between;
+}
+
+div#msn {
+    color: var(--danger);
+    align-content: center;
+}
+
+.content_list {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }

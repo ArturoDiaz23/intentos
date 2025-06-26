@@ -30,26 +30,40 @@
 
 <body class="margin_body">
 
-    <!--Boton flotante-->
-    <md-fab variant="secondary" aria-label="Add">
+    <!--flotante-->
+
+    <md-fab aria-label="Add" id="btn_add">
         <md-icon slot="icon">Add</md-icon>
     </md-fab>
     <!--modal-->
     <div>
-        <form>
-            <md-outlined-text-field label="Ingresa Url" id="id_Url"></md-outlined-text-field>
-            <md-outlined-button id="btn_guardar">Guardar</md-outlined-button>
-        </form>
+        <md-dialog id="dialog_url">
+            <div slot="headline">
+                Url
+            </div>
+            <form slot="content" id="form-id" method="dialog">
+                <md-outlined-text-field label="Ingresa Url" id="id_Url">
+                </md-outlined-text-field>
+                <md-filled-button id="btn_guardar">Guardar</md-filled-button>
+            </form>
+            <div slot="actions">
+                <div id="msn"></div>
+                <md-filled-tonal-button form="form-id" id="btn_close">Cerrar</md-filled-tonal-button>
+            </div>
+        </md-dialog>
     </div>
 
     <!--Contenido-->
-    <div>
+    <div class="content_list">
         <h1 class="md-typescale-display-medium">ListUrl</h1>
+        <md-divider></md-divider>
+        <!-- Contenido de url-->
+        <div></div>
     </div>
-    <div></div>
 
 
     <!-- Script-->
 </body>
+<script src="../src/js/app.js"></script>
 
 </html>
