@@ -58,12 +58,19 @@
         <h1 class="md-typescale-display-medium">ListUrl</h1>
         <md-divider></md-divider>
         <!-- Contenido de url-->
-        <div></div>
+        <md-list id="list" style="background-color: white;"></md-list>
     </div>
 
 
+    <template id="template">
+        <md-list-item>
+            <a target="_blank"></a>
+            <img slot="start" style="width: 56px">
+        </md-list-item>
+        <md-divider></md-divider>
+    </template>
     <!-- Script-->
+    <script src="../src/js/app.js"></script>
 </body>
-<script src="../src/js/app.js"></script>
 
 </html>
