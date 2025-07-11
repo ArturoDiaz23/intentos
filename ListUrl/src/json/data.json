@@ -1,84 +1,82 @@
-{
-    "urls": [
-        {
-            "id": 1,
-            "url": "https://www.google.com"
-        },
-        {
-            "id": 2,
-            "url": "https://www.github.com"
-        },
-        {
-            "id": 3,
-            "url": "https://www.stackoverflow.com"
-        },
-        {
-            "id": 4,
-            "url": "https://www.reddit.com"
-        },
-        {
-            "id": 5,
-            "url": "https://www.medium.com"
-        },
-        {
-            "id": 6,
-            "url": "https://www.linkedin.com"
-        },
-        {
-            "id": 7,
-            "url": "https://www.twitter.com"
-        },
-        {
-            "id": 8,
-            "url": "https://www.facebook.com"
-        },
-        {
-            "id": 9,
-            "url": "https://www.instagram.com"
-        },
-        {
-            "id": 10,
-            "url": "https://www.youtube.com"
-        },
-        {
-            "id": 11,
-            "url": "https://www.wikipedia.org"
-        },
-        {
-            "id": 12,
-            "url": "https://www.quora.com"
-        },
-        {
-            "id": 13,
-            "url": "https://www.pinterest.com"
-        },
-        {
-            "id": 14,
-            "url": "https://www.tumblr.com"
-        },
-        {
-            "id": 15,
-            "url": "https://www.flickr.com"
-        },
-        {
-            "id": 16,
-            "url": "https://www.vimeo.com"
-        },
-        {
-            "id": 17,
-            "url": "https://www.tiktok.com"
-        },
-        {
-            "id": 18,
-            "url": "https://www.snapchat.com"
-        },
-        {
-            "id": 19,
-            "url": "https://www.reddit.com/r/programming"
-        },
-        {
-            "id": 20,
-            "url": "https://www.hackernews.com"
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "url": "https://www.google.com"
+    },
+    {
+        "id": 2,
+        "url": "https://www.github.com"
+    },
+    {
+        "id": 3,
+        "url": "https://www.stackoverflow.com"
+    },
+    {
+        "id": 4,
+        "url": "https://www.reddit.com"
+    },
+    {
+        "id": 5,
+        "url": "https://www.medium.com"
+    },
+    {
+        "id": 6,
+        "url": "https://www.linkedin.com"
+    },
+    {
+        "id": 7,
+        "url": "https://www.twitter.com"
+    },
+    {
+        "id": 8,
+        "url": "https://www.facebook.com"
+    },
+    {
+        "id": 9,
+        "url": "https://www.instagram.com"
+    },
+    {
+        "id": 10,
+        "url": "https://www.youtube.com"
+    },
+    {
+        "id": 11,
+        "url": "https://www.wikipedia.org"
+    },
+    {
+        "id": 12,
+        "url": "https://www.quora.com"
+    },
+    {
+        "id": 13,
+        "url": "https://www.pinterest.com"
+    },
+    {
+        "id": 14,
+        "url": "https://www.tumblr.com"
+    },
+    {
+        "id": 15,
+        "url": "https://www.flickr.com"
+    },
+    {
+        "id": 16,
+        "url": "https://www.vimeo.com"
+    },
+    {
+        "id": 17,
+        "url": "https://www.tiktok.com"
+    },
+    {
+        "id": 18,
+        "url": "https://www.snapchat.com"
+    },
+    {
+        "id": 19,
+        "url": "https://www.reddit.com/r/programming"
+    },
+    {
+        "id": 20,
+        "url": "https://www.hackernews.com"
+    }
+]
