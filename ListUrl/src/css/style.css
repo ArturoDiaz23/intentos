@@ -12,7 +12,7 @@ body {
 
 form {
     display: grid;
-min-height:100dvh;
+min-height: 100dvh;
 grid-template-row: auto 1fr auto;
     gap: 20px;
 }
