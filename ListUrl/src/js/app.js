@@ -83,7 +83,7 @@ btn_add.addEventListener('click', () => {
 btn_guardar.addEventListener('click', (e) => {
     e.preventDefault();
     console.log(id_Url.value);
-    if (id_Url.value == '') {
+    if (id_Url.value === '') {
         msn.innerHTML = 'Debe ingresar una Url';
     }
     if (validarURL(array2, id_Url.value) === true) {
