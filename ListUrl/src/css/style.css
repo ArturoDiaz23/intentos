@@ -37,9 +37,6 @@ div#msn {
 }
 
 .content_list {
-    display: grid;
-    min-height: 100dvh;
-    grid-template-rows: auto 1fr auto;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
