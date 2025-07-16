@@ -88,7 +88,8 @@ btn_guardar.addEventListener('click', (e) => {
     }
     if (validarURL(array2, id_Url.value) === false) {
         msn.innerHTML = 'Agregando...';
-    }else{
+    }
+    if (validarURL(array2, id_Url.value) === true){
         msn.innerHTML = 'ya esta en la Lista';
     }
 });
