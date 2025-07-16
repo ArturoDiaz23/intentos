@@ -86,10 +86,10 @@ btn_guardar.addEventListener('click', (e) => {
     if (id_Url.value === '') {
         msn.innerHTML = 'Debe ingresar una Url';
     }
-    if (validarURL(array2, id_Url.value) === true) {
-        msn.innerHTML = 'Ya existe en la Lista';
+    if (validarURL(array2, id_Url.value) === false) {
+        msn.innerHTML = 'Agregando...';
     }else{
-        msn.innerHTML = 'Agregando a la Lista';
+        msn.innerHTML = 'ya esta en la Lista';
     }
 });
 
